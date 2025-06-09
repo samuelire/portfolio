@@ -1,0 +1,30 @@
+i{
+   display: inline-block;
+   width: 100% ;
+        
+}
+button{
+  display: inline-block;
+   padding: 10px; 
+   border-radius: 5px;
+   margin: 10px;
+   cursor: pointer;
+   transition: padding 0.015s, margin 0.015s;
+}
+button:hover{
+  padding: 20px;
+  margin: -5px;
+}
+body{
+  margin: 0px;
+  font-family: 'inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3{
+  font-family: 'poppins', sans-serif;
+  color: #222;
+}
